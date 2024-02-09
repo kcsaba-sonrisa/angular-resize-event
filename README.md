@@ -29,7 +29,7 @@ For Angular 11 you can use version 2.1.0 which internally uses uses `ResizeSenso
 Import the library in any Angular application by running:
 
 ```bash
-$ npm install angular-resize-event
+$ npm i angular-resize-event@npm:@sonrisa-dev/angular-resize-event-sonfork
 ```
 
 and then from your Angular `AppModule`:
