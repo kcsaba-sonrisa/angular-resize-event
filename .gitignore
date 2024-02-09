@@ -42,3 +42,4 @@ testem.log
 Thumbs.db
 /playground/.angular/
 /playground/node_modules/
+/playground/dist/
