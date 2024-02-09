@@ -3,9 +3,9 @@
   "compileOnSave": false,
   "compilerOptions": {
     "paths": {
-      "angular-resize-event-forked": [
-        "dist/angular-resize-event-forked/angular-resize-event-forked",
-        "dist/angular-resize-event-forked"
+      "angular-resize-event-sonfork": [
+        "dist/angular-resize-event-sonfork/angular-resize-event-sonfork",
+        "dist/angular-resize-event-sonfork"
       ]
     },
     "baseUrl": "./",

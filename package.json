@@ -1,5 +1,5 @@
 {
-  "name": "angular-resize-event-forked",
+  "name": "angular-resize-event-sonfork",
   "version": "3.5.0",
   "scripts": {
     "ng": "ng",
@@ -7,8 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "publish": "npm publish ./dist/angular-resize-event-forked",
-    "postbuild": "cp README.md dist/angular-resize-event-forked/README.md"
+    "publish": "npm publish ./dist/angular-resize-event-sonfork",
+    "postbuild": "cp README.md dist/angular-resize-event-sonfork/README.md"
   },
   "private": true,
   "dependencies": {
