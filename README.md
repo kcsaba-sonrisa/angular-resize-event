@@ -1,12 +1,14 @@
 # Angular Resize Event
 
-[![github version](https://img.shields.io/github/package-json/v/vdolek/angular-resize-event/master?label=github)](https://github.com/vdolek/angular-resize-event)
-[![npm version](https://img.shields.io/npm/v/angular-resize-event)](https://www.npmjs.com/package/angular-resize-event)
-[![build status](https://img.shields.io/github/workflow/status/vdolek/angular-resize-event/CI/master)](https://github.com/vdolek/angular-resize-event/actions?query=workflow%3ACI)
-[![downloads](https://img.shields.io/npm/dt/angular-resize-event)](https://www.npmjs.com/package/angular-resize-event)
-[![vulnerabilities](https://img.shields.io/snyk/vulnerabilities/github/vdolek/angular-resize-event)](https://snyk.io/test/github/vdolek/angular-resize-event)
+## Important
+Forked from: https://github.com/vdolek/angular-resize-event. The last original version is not supported by angular 17. 
+We forked and merged a pull request which contains angular 17 support.
 
-Angular 14 directive for detecting changes of an element size.
+Thanks to: https://github.com/vdolek, https://github.com/dereekb, and all contributors.
+
+---
+## Description
+Angular 17 directive for detecting changes of an element size.
 
 It is as simple as:
 

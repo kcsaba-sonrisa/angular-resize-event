@@ -3,23 +3,23 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-resize-event": {
+    "angular-resize-event-forked": {
       "projectType": "library",
-      "root": "projects/angular-resize-event",
-      "sourceRoot": "projects/angular-resize-event/src",
+      "root": "projects/angular-resize-event-forked",
+      "sourceRoot": "projects/angular-resize-event-forked/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/angular-resize-event/ng-package.json"
+            "project": "projects/angular-resize-event-forked/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/angular-resize-event/tsconfig.lib.prod.json"
+              "tsConfig": "projects/angular-resize-event-forked/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/angular-resize-event/tsconfig.lib.json"
+              "tsConfig": "projects/angular-resize-event-forked/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -27,9 +27,9 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/angular-resize-event/src/test.ts",
-            "tsConfig": "projects/angular-resize-event/tsconfig.spec.json",
-            "karmaConfig": "projects/angular-resize-event/karma.conf.js"
+            "main": "projects/angular-resize-event-forked/src/test.ts",
+            "tsConfig": "projects/angular-resize-event-forked/tsconfig.spec.json",
+            "karmaConfig": "projects/angular-resize-event-forked/karma.conf.js"
           }
         }
       }
