@@ -1,13 +1,13 @@
 {
-  "name": "angular-resize-event-sonfork",
-  "version": "3.5.1",
+  "name": "@sonrisa-dev/angular-resize-event-sonfork",
+  "version": "3.5.2",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "publish": "npm publish ./dist/angular-resize-event-sonfork",
+    "publish": "npm publish ./dist/angular-resize-event-sonfork --access public",
     "postbuild": "cp README.md dist/angular-resize-event-sonfork/README.md"
   },
   "private": true,
